@@ -1,8 +1,8 @@
-function colorComponent(){
+function ColorComponent(){
     return(
         <>
             <h1>colorComponent Works</h1>
         </>
     )
 }
-export default colorComponent;
+export default ColorComponent;

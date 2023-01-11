@@ -2,17 +2,17 @@
 import Home from './compo/Home';
 import Settings from './compo/Settings';
 import Search from './compo/search';
-// import createNewComponent from './compo/createNewComponent';
-// import colorComponent from './compo/colorComponent';
-// import cosmaticComponent from './compo/cosmaticComponent';
+import CreateNewComponent from './compo/createNewComponent';
+import ColorComponent from './compo/colorComponent';
+import CosmaticComponent from './compo/cosmaticComponent';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      {/* <createNewComponent/>
-      <colorComponent/>
-      <cosmaticComponent/> */}
+      <CreateNewComponent/>
+      <ColorComponent/>
+      <CosmaticComponent/>
       <Search/>
       <Settings/>
       <Home/>

@@ -1,8 +1,8 @@
-function cosmaticComponent(){
+function CosmaticComponent(){
     return(
         <>
             <h1>cosmaticComponent Works</h1>
         </>
     )
 }
-export default cosmaticComponent;
+export default CosmaticComponent;
