@@ -1,13 +1,21 @@
-import logo from './logo.svg';
-import Sandeep from './compo/Sandeep';
-import Shubhangi from './compo/Shubhangi';
+//import logo from './logo.svg';
+import Home from './compo/Home';
+import Settings from './compo/Settings';
+import Search from './compo/search';
+// import createNewComponent from './compo/createNewComponent';
+// import colorComponent from './compo/colorComponent';
+// import cosmaticComponent from './compo/cosmaticComponent';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <Sandeep/>
-      <Shubhangi/>
+      {/* <createNewComponent/>
+      <colorComponent/>
+      <cosmaticComponent/> */}
+      <Search/>
+      <Settings/>
+      <Home/>
     </div>
   );
 }
