@@ -10,11 +10,6 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <CreateNewComponent/>
-      <ColorComponent/>
-      <CosmaticComponent/>
-      <Search/>
-      <Settings/>
       <Home/>
     </div>
   );
